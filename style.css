@@ -13,6 +13,42 @@
   z-index: 1;
 }
 
+.stella::after{
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+
+}
+
+.stella-bg::after{
+  background-color: white;
+}
+
+.header-mg .row .stella-bg:after,
+.container .row .hr-mod .stella-bg:after
+{
+  background-color: #17BC9C;
+}
+
+hr{
+    overflow: visible;
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .acqua,
 .white{
   padding: 40px 40px;
